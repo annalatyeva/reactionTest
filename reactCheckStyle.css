@@ -1,0 +1,20 @@
+html * {
+    margin: 0;
+    padding: 0;
+}
+main {
+    border: 1px red solid;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    height: 99.5vh;
+}
+.reaction-container {
+    margin: 20px;
+    border: 1px black solid;
+}
+#square {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
